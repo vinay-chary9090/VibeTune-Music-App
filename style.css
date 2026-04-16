@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    /*margin and down padding to cover full page*/
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: black;
+    height: 100%;
+    width: 160px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: century gothic;
+    padding-top: 25px;
+    padding-right: 3px;
+    padding-left: 4px;
+    overflow: hidden;
+
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 20px;
+}
+
+.home {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.home:hover {
+    background-color: rgb(97, 94, 94);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.options {
+    font-size: 14px;
+}
+
+.options:hover {
+    background-color: rgb(97, 94, 94);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.newplus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.newplay {
+    font-size: 12px;
+}
+
+.add {
+    background: none;
+    border: none;
+    color: gray;
+    font-size: 28px;
+}
+
+.add:hover {
+    background-color: rgb(97, 94, 94);
+    width: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+hr {
+    margin-top: 10px;
+    width: 102%;
+    height: 0px;
+}
+
+img {
+    width: 150px;
+}
+
+.image {
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    flex: 1;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+}
+
+.searchbar {
+    width: 210px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 18px;
+    outline: none;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right .fa {
+    font-size: 15px;
+    color: white;
+    width: 30px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .fa:hover {
+    background-color: rgb(78, 76, 76);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.alexa {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px;
+    color: white;
+}
+
+.alexa:hover {
+    background-color: rgb(78, 76, 76);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.rightcntrl {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 10px;
+}
+
+.homie {
+    padding: 10px;
+}
+
+.head {
+    margin-top: 35px;
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.trend {
+    margin-top: 45px;
+    color: white;
+    font-family: century gothic;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+}
+
+.allimg {
+    width: 250px;
+}
+
+.text {
+    width: 250px;
+    color: white;
+    font-size: 15px;
+}
+
+.common1 {
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.common2 {
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 8px;
+    color: rgb(139, 136, 136);
+}
+
+.followers {
+    color: rgb(33, 158, 33);
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.fa-circle-pause {
+    color: white;
+    font-size: 35px;
+}
+
+.fa-expand {
+    color: azure;
+}
+
+.songs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    color: rgb(253, 253, 253);
+    padding: 10px;
+}
+
+.fa-arrows-repeat {
+    color: white;
+    font-size: 100px;
+}
+
+.three {
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.four {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.fa-shuffle,
+.fa-backward-step,
+.fa-forward-step,
+.fa-repeat,
+.fa-share,
+.fa-expand,
+.fa-bars {
+    padding: 7px;
+}
+
+.fa-shuffle:hover,
+.fa-backward-step:hover,
+.fa-forward-step:hover,
+.fa-repeat:hover,
+.fa-share:hover,
+.fa-expand:hover,
+.fa-bars:hover {
+    background-color: rgb(78, 76, 76);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.fa-circle-pause:hover {
+    color: gray;
+}
+
+.fa-circle-pause {
+    cursor: pointer;
+}
+
+.audio {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 128px;
+}
+
+.slider {
+    width: 500px;
+    height: 2px;
+}
+
+.img:hover {
+    background-color: rgb(15, 15, 15);
+    font-size: 10px;
+}
+
+.windows-control {
+    margin-left: 19px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    font-size: 20px;
+}
+
+.name {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#87cb09;
+    font-weight: bold;
+}
+.fa-headphones-alt{
+    color: #c0bfd2;
+}
+.fa-gear {
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.fa-gear:hover {
+    background-color: rgb(78, 76, 76);
+    border-radius: 6px;
+}
